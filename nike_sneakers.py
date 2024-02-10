@@ -10,8 +10,8 @@ def beolvas():
             sneaker = {
                 'title': ertek[0],
                 'color': ertek[1],
-                'full_price': ertek[2],
-                'current_price': ertek[3],
+                'full_price': float(ertek[2]),
+                'current_price': float(ertek[3]),
                 'publish_date': ertek[4]
 
             }
